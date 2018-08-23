@@ -1,4 +1,4 @@
-monopoly-js
+大富翁
 ===========
 
-Monopoly full JS
+JS大富翁
