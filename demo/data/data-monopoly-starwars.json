@@ -3,7 +3,7 @@
 		"subtitle":"Star Wars",
 		"backgroundColor": "#888888",
 		"textColor": "#FFFFFF",
-		"nomsJoueurs":["R2 D2","Dark Vador","Jango Feet","StormTrooper","Boba Feet","Clone","Chewbacca"],
+		"nomsJoueurs":["庄严","盘小古","盘小美","张三","李四","王五","钱多多"],
 		"colors":["#2551A9","#000000","#800000","#FFFFFF","#7A9B94","#FFD300","#7A9B94","#9EA3A5"],
 		"imgJoueurs":["img/starwars/r2_d2.png","img/starwars/darth_vader.png","img/starwars/jango_fett.png","img/starwars/stormtrooper.png","img/starwars/boba_fett.png","img/starwars/clone_2.png"],
 		"rollColor":"#999999",
