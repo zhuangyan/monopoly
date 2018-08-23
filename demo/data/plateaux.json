@@ -14,23 +14,23 @@
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-couleur.json"
         },
         {
-            "name": "James Bond",
+            "name": "詹姆斯·邦德",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-jamesbond.json"
         },
         {
-            "name": "James Bond Circle",
+            "name": "詹姆斯·邦德－圆形",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle-bond.json"
         },
         {
-            "name": "Star Wars",
+            "name": "星际战争",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-starwars.json"
         },
         {
-            "name": "Star Wars 2",
+            "name": "星际战争２",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-starwars2.json"
         },
         {
-            "name": "Star Wars 2 Circle",
+            "name": "星际战争２－圆形",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle-starwars2.json"
         }
     ]
