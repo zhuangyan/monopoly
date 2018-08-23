@@ -2,15 +2,15 @@
     "comment": "Remplace le futur service listant dynamiquement les fichiers de configuration",
     "plateaux": [
         {
-            "name": "Classique",
+            "name": "经典",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly.json"
         },
         {
-            "name": "Classique Circle",
+            "name": "经典圆形",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle.json"
         },
         {
-            "name": "Couleur",
+            "name": "色彩",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-couleur.json"
         },
         {
