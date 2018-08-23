@@ -8,7 +8,7 @@
 		"rollColor":"#444444",
 		"depart":20000
 	},
-	"currency": "£",
+	"currency": "￥",
 	"fiches": [
 		{"type": "depart","axe": 2,"pos": 0,"nom": "Départ"},
 		{"type": "propriete","groupe": "Violet","axe": 2,"pos": 1,"nom": "Docteur No","colors": ["#812B5C", "#DFA4C6"],"prix": 4000,"loyers": [200,1000,3000,9000,16000,25000],"prixMaison": 5000},
