@@ -10,10 +10,6 @@
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle.json"
         },
         {
-            "name": "色彩",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-couleur.json"
-        },
-        {
             "name": "詹姆斯·邦德",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-jamesbond.json"
         },
@@ -22,15 +18,15 @@
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle-bond.json"
         },
         {
-            "name": "星际战争",
+            "name": "星际争霸",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-starwars.json"
         },
         {
-            "name": "星际战争２",
+            "name": "星际争霸２",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-starwars2.json"
         },
         {
-            "name": "星际战争２－圆形",
+            "name": "星际争霸２－圆形",
             "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle-starwars2.json"
         }
     ]
