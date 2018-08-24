@@ -1,5 +1,5 @@
 {
-	"extend":"data-monopoly-starwars2.json",
+	"extend":"http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-starwars2.json",
 	"plateau":{
 		"type":"circle"
 	},
