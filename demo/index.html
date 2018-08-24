@@ -33,16 +33,16 @@
 			  <canvas id="canvas_rt" width="810" height="810" style="top:0px;left:0px;position:absolute"></canvas>
 				<div>
 				   <img src="img/reload_dice.png" style="display:none;" id="idReloadDice" title="Relancez" class="graphic_element"/>
-				   <button style="position:absolute;top:260px;left:135px;" title="Lancez les dés" id="idLancerDes" class="action-joueur" disabled="disabled">
+				   <button style="position:absolute;top:260px;left:135px;" title="掷骰子" id="idLancerDes" class="action-joueur" disabled="disabled">
 						<img src="img/dice.png" style="width:24px;padding:0px;"/>
 				   </button>
-				   <button style="position:absolute;top:260px;left:190px;" title="Achat maisons" class="action-joueur" onclick="GestionTerrains.open()" disabled="disabled">
+				   <button style="position:absolute;top:260px;left:190px;" title="房产管理" class="action-joueur" onclick="GestionTerrains.open()" disabled="disabled">
 						<img src="img/house.png" style="width:24px;padding:0px;"/>
 					</button>
-				   <button style="position:absolute;top:260px;left:245px;" title="Echange terrains" id="idEchangeTerrains" class="action-joueur" onclick="EchangeDisplayer.open(GestionJoueur.getJoueurCourant())" disabled="disabled">
+				   <!-- <button style="position:absolute;top:260px;left:245px;" title="交换土地" id="idEchangeTerrains" class="action-joueur" onclick="EchangeDisplayer.open(GestionJoueur.getJoueurCourant())" disabled="disabled">
 						<img src="img/swap.png" style="width:24px;padding:0px;"/>
-					</button>
-				   <button style="position:absolute;top:260px;left:300px;" title="Terrains libres" class="action-joueur" onclick="$('#idTerrainsLibres').dialog('open');" disabled="disabled">
+					</button> -->
+				   <button style="position:absolute;top:260px;left:245px;" title="无主之地" class="action-joueur" onclick="$('#idTerrainsLibres').dialog('open');" disabled="disabled">
 						<img src="img/list.png" style="width:24px;padding:0px;"/>
 					</button>
 				   
@@ -87,7 +87,7 @@
 		住房价格￥ <span id="prixMaison" name="prixMaison"></span><br/>
 	每层楼加价￥ <span id="prixHotel" name="prixMaison"></span><br/>
 	</div>
-	大旅店加价￥ <span id="hypotheque" name="montantHypotheque"></span>
+	抵押价格￥ <span id="hypotheque" name="montantHypotheque"></span>
 	
    </div>
    
@@ -101,22 +101,22 @@
  
  	<div style="display:none" id="housesPanel">
  	<div style="width:50%;height:calc(100% - 45px);background-color:white;float:left">
- 		<div class="title-dialog">Hypotheque</div>
+ 		<div class="title-dialog">抵押</div>
 		<fieldset id="idTerrainsHypotheques" style="border:solid 1px darkgrey;margin-top:10px;">
-			<legend>Terrains hypothéqués</legend>
+			<legend>抵押中土地</legend>
 			<div>
 			
 			</div>
 		</fieldset>
 		<fieldset id="idTerrains" style="border:solid 1px darkgrey;margin-top:10px;">
-			<legend>Terrains hypothécables</legend>
+			<legend>抵押土地</legend>
 			<select></select>
-			<button id="idHypothequeAction">Hypothéquer</button>
+			<button id="idHypothequeAction">抵押</button>
 			<div id="toHypotheque"></div>
 		</fieldset>			
  	</div>
  	<div style="width:50%;height:calc(100% - 45px);background-color:white;float:right">
- 		<div class="title-dialog">Constructions</div>
+ 		<!-- <div class="title-dialog">结构</div>
 		<div id="idTerrainsConstructibles" class="constructions" style="padding-left: 10px"></div>
 		<hr style="margin-right:10px;width:150px;float:right;"/>
 		<div style="clear:both"></div>
@@ -129,14 +129,14 @@
 		<div style="margin-right:40px;float:right" id="resteConstructions">
 		 Reste <img src="img/maison.png" style="width:15px;"/> x <span name="nbMaison">0</span>
 		 <img src="img/hotel.png" style="width:15px;"/> x <span name="nbHotel">0</span>
-		</div>
+		</div> -->
  	</div>
 	<div id="idTest" style="clear:both;width:100%;height:40px">
 	  <table style="height:100%;width:100%;border:0;border-collapse: collapse"><tr>
 	  <td style="width:37%;height:100%;border-top:solid 1px black;"></td>
 	  <td style="width:26%;border:solid 1px black;padding:5px;background-color:white">
-	    Resultat : <span id="idCoutTotal"></span><br/>
-	    Porte-monnaie : <span id="idArgentRestant"></span>
+	    总价 : <span id="idCoutTotal"></span><br/>
+	    钱包余额 : <span id="idArgentRestant"></span>
 	  </td>
 	  <td style="width:37%;border-top:solid 1px black;"></td>
 	  </tr></table>
@@ -211,8 +211,8 @@
 	    <select id="idSauvegardes">
 		 <option value="">---</option>
 	    </select>
-	    <button id="idDeleteSauvegarde">Supprimer</button>
-		<button id="idLoadSauvegarde">Charger</button>
+	    <button id="idDeleteSauvegarde">删除</button>
+		<button id="idLoadSauvegarde">载入</button>
 	  </fieldset>
 	</div>
 
