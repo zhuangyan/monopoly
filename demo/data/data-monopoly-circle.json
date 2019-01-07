@@ -1,5 +1,5 @@
 {
-	"extend":"/data/data-monopoly.json",
+	"extend":"data/data-monopoly.json",
 	"plateau":{
 		"subtitle":"Round",
 		"type":"circle"		
