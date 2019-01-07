@@ -1,5 +1,5 @@
 {
-	"extend":"http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly.json",
+	"extend":"data-monopoly.json",
 	"plateau":{
 		"subtitle":"Round",
 		"type":"circle"		

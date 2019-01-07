@@ -1,6 +1,6 @@
 
 {
-	"extend":"http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-jamesbond.json",
+	"extend":"data-monopoly-jamesbond.json",
 	"plateau":{
 		"subtitle":"Round",
 		"type":"circle"

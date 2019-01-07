@@ -3,31 +3,31 @@
     "plateaux": [
         {
             "name": "经典",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly.json"
+            "url": "data-monopoly.json"
         },
         {
             "name": "经典圆形",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle.json"
+            "url": "data-monopoly-circle.json"
         },
         {
             "name": "詹姆斯·邦德",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-jamesbond.json"
+            "url": "data-monopoly-jamesbond.json"
         },
         {
             "name": "詹姆斯·邦德－圆形",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle-bond.json"
+            "url": "data-monopoly-circle-bond.json"
         },
         {
             "name": "星际争霸",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-starwars.json"
+            "url": "data-monopoly-starwars.json"
         },
         {
             "name": "星际争霸２",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-starwars2.json"
+            "url": "data-monopoly-starwars2.json"
         },
         {
             "name": "星际争霸２－圆形",
-            "url": "http://www.zhuangyan.cn/monopoly/demo/data/data-monopoly-circle-starwars2.json"
+            "url": "data-monopoly-circle-starwars2.json"
         }
     ]
 }
