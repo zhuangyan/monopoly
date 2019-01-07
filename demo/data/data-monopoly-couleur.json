@@ -1,5 +1,5 @@
 {
-	"extend":"data-monopoly.json",
+	"extend":"/data/data-monopoly.json",
 	"plateau":{
 		"nomsJoueurs":["庄严","盘小古","盘小美","张三","李四","王五","钱多多"],
 	}

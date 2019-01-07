@@ -1,5 +1,5 @@
 {
-	"extend":"data-monopoly-starwars.json",
+	"extend":"/data/data-monopoly-starwars.json",
 	"plateau":{
 		"subtitle":"Star Wars Personnage",
 		"nomsJoueurs":["R2 D2","C3 PO","Dark Vador","StormTrooper","Boba Feet","Chewbacca"],

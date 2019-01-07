@@ -1,5 +1,5 @@
 {
-	"extend":"data-monopoly-starwars2.json",
+	"extend":"/data/data-monopoly-starwars2.json",
 	"plateau":{
 		"type":"circle"
 	},
