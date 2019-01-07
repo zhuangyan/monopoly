@@ -11,23 +11,23 @@
         },
         {
             "name": "詹姆斯·邦德",
-            "url": "data-monopoly-jamesbond.json"
+            "url": "data/data-monopoly-jamesbond.json"
         },
         {
             "name": "詹姆斯·邦德－圆形",
-            "url": "data-monopoly-circle-bond.json"
+            "url": "data/data-monopoly-circle-bond.json"
         },
         {
             "name": "星际争霸",
-            "url": "data-monopoly-starwars.json"
+            "url": "data/data-monopoly-starwars.json"
         },
         {
             "name": "星际争霸２",
-            "url": "data-monopoly-starwars2.json"
+            "url": "data/data-monopoly-starwars2.json"
         },
         {
             "name": "星际争霸２－圆形",
-            "url": "data-monopoly-circle-starwars2.json"
+            "url": "data/data-monopoly-circle-starwars2.json"
         }
     ]
 }
